@@ -181,7 +181,7 @@ article
 {
     margin: auto;
     padding: 20px;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 article h1
@@ -197,13 +197,11 @@ article h2
     margin: auto;
     margin-bottom: 5px;
     margin-top: 10px;
-    font-size: 1em;
 }
 
 article p
 {
     margin: auto;
-    font-size: 1em;
 }
 
 article a
