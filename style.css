@@ -1,0 +1,223 @@
+/* Définition des polices personnalisées */
+
+/* @font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+/* @font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+/* Eléments principaux de la page */
+
+body
+{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+/* Header */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 4px 4px grey;
+}
+
+/* Navigation */
+
+nav
+{
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+nav ul
+{
+    margin: 0px;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+}
+
+nav li
+{
+    padding: 0px 40px 0px 40px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #338498;
+    /* border-bottom: 3px solid #760001; */
+}
+
+/* Bannière */
+
+#banner
+{
+    margin-top: 0px;
+    height: 250px;
+    border-radius: 0px 0px 5px 5px;
+    /* background: url('images/sanfrancisco.jpg') no-repeat; */
+    position: relative;
+    box-shadow: 0px 4px 4px grey;
+    margin-bottom: 25px;
+}
+
+/* #banniere_description
+{#1c1a19
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+} */
+
+#contact
+{
+    position: relative;
+    padding: 20px;
+}
+
+#contact h2, h3, h4
+{
+    color: grey;
+    padding: 0px;
+    margin: 0px;
+}
+
+#contact h2
+{
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+
+#contact h3
+{
+    margin-top: 5px;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+#contact h4
+{
+    margin-top: 5px;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+#contact p
+{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+#photo
+{
+    position: absolute;
+    top: -15px;
+    left: 700px;
+}
+
+#photo img
+{
+    border: 1px solid #181818;
+    height: 240px;
+}
+
+/* Corps */
+
+section
+{
+    margin: auto;
+}
+
+article, aside
+{
+    text-align: justify;
+}
+
+article
+{
+    margin: auto;
+    padding: 20px;
+}
+
+article h1
+{
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+article h2
+{
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+article p
+{
+    margin: auto;
+    font-size: 1em;
+}
+
+article a
+{
+    color: black;
+    text-decoration: none;
+}
+
+article a:hover
+{
+    color: #338498;
+}
+
+article ul
+{
+    margin: auto;
+    margin-top: 10px;
+}
