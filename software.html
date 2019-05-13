@@ -21,8 +21,22 @@
 
             <section>
                 <article>
-                    <p>En construction.</p>
+                    <p>Check my <a href="https://github.com/qdenoyelle">GitHub page</a>.</p>
+                </article>
 
+                <article>
+                    <h1>The Sliding Frank-Wolfe (SFW) Algorithm</h1>
+                    <p>The SFW algorithm is a greedy type algorithm based on the Frank-Wolfe algorithm (or Conditionnal Gradient Method (CGM)) that solves the
+                        BLASSO over the space of Radon measures. It adds a new Dirac mass (or spike) at each iteration and consists in interleaving a convex and a
+                        non convex step where both the amplitudes and positions of the spikes are moved to further decrease the objective function. We proved in
+                        <a href="https://arxiv.org/abs/1811.06416">[1]</a> that it converges to the unique sparse solution of the BLASSO (finite sum of spikes) in
+                        finite time.
+                    </p>
+                    <img src="observed.png" alt="" id="sfw-observed" />
+                    <img src="recovered.gif" alt="" id="sfw-recovered" />
+                    <p>This algorithm is currently being implemented in Java by Amandine Evard (EPFL) as part of a master project. The goal is to developp an
+                        ImageJ Plugin that can be used by biologists for Single Molecule Localization Microscopy (SMLM) applications. You can find more details
+                        on this <a href="http://bigwww.epfl.ch/teaching/projects/current.html#id_4324">website</a>.</p>
                 </article>
             </section>
         </div>

@@ -170,6 +170,8 @@ nav a:hover
 section
 {
     margin: auto;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 4px 4px grey;
 }
 
 article, aside
@@ -188,8 +190,9 @@ article h1
 {
     margin: auto;
     margin-bottom: 10px;
-    margin-top: 20px;
-    text-decoration: underline;
+    margin-top: 15px;
+    color: grey;
+    /*text-decoration: underline;*/
 }
 
 article h2
@@ -197,11 +200,15 @@ article h2
     margin: auto;
     margin-bottom: 5px;
     margin-top: 10px;
+    color: grey;
+    font-size: 1em;
 }
 
 article p
 {
     margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 article a
@@ -220,3 +227,25 @@ article ul
     margin: auto;
     margin-top: 10px;
 }
+
+article img
+{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    width: 50.00%;
+}
+
+/* article img recovered
+{
+    position: absolute;
+    top: 250px;
+    left: 830px;
+} */
+
+/* #photo img
+{
+    border: 1px solid #181818;
+    height: 240px;
+} */
