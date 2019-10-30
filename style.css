@@ -1,4 +1,4 @@
-/* Eléments principaux de la page */
+/* Main elements of Webpage */
 
 body
 {
@@ -59,7 +59,7 @@ nav a:hover
     /* border-bottom: 3px solid #760001; */
 }
 
-/* Bannière */
+/* Banner */
 
 #banner
 {
@@ -110,6 +110,7 @@ nav a:hover
     padding: 0px;
     margin: 0px;
     margin-top: 10px;
+    font-size: 1em;
 }
 
 #photo
@@ -125,7 +126,7 @@ nav a:hover
     height: 240px;
 }
 
-/* Corps */
+/* Body */
 
 section
 {
@@ -143,7 +144,7 @@ article
 {
     margin: auto;
     padding: 20px;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 article h1
@@ -203,4 +204,3 @@ article img
     top: 250px;
     left: 830px;
 } */
-
