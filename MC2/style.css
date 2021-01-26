@@ -1,0 +1,225 @@
+/* Main elements of Webpage */
+
+body
+{
+    font-family: 'Helvetica', 'Trebuchet MS', Arial, sans-serif;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+/* Header */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 4px 4px grey;
+}
+
+/* Navigation */
+
+nav
+{
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+nav ul
+{
+    margin: 0px;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+}
+
+nav li
+{
+    padding: 0px 40px 0px 40px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #338498;
+    /* border-bottom: 3px solid #760001; */
+}
+
+/* Banner */
+
+#banner
+{
+    margin-top: 0px;
+    height: 250px;
+    border-radius: 0px 0px 5px 5px;
+    /* background: url('images/sanfrancisco.jpg') no-repeat; */
+    position: relative;
+    box-shadow: 0px 4px 4px grey;
+    margin-bottom: 25px;
+}
+
+#contact
+{
+    position: relative;
+    padding: 20px;
+}
+
+#contact h2, h3, h4
+{
+    color: grey;
+    padding: 0px;
+    margin: 0px;
+}
+
+#contact h2
+{
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+
+#contact h3
+{
+    margin-top: 5px;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+#contact h4
+{
+    margin-top: 5px;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+#contact p
+{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+#photo
+{
+    position: absolute;
+    top: -15px;
+    left: 700px;
+}
+
+#photo img
+{
+    border: 1px solid #181818;
+    height: 240px;
+}
+
+/* Body */
+
+section
+{
+    margin: auto;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 4px 4px grey;
+}
+
+section h1
+{
+    margin: auto;
+    color: grey;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+article, aside
+{
+    text-align: justify;
+}
+
+article
+{
+    margin: auto;
+    padding: 20px;
+    font-size: 1em;
+}
+
+article h1
+{
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: grey;
+    /*text-decoration: underline;*/
+}
+
+article h2
+{
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: grey;
+    font-size: 1em;
+}
+
+article h3
+{
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: grey;
+    font-size: 0.9em;
+}
+
+article p
+{
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+article a
+{
+    color: black;
+    text-decoration: none;
+}
+
+article a:hover
+{
+    color: #338498;
+}
+
+article ul
+{
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article img
+{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    width: 50.00%;
+}
+
+/* article img recovered
+{
+    position: absolute;
+    top: 250px;
+    left: 830px;
+} */
