@@ -1,0 +1,2 @@
+interro_1, interro_2, interro_3, interro_4, dm_1, dm_2
+10.5, 12.0, 6.0, 4.0, 8.5, 10.0

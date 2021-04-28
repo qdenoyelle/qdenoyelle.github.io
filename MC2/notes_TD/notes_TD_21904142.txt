@@ -1,0 +1,2 @@
+interro_1, interro_2, interro_3, interro_4, dm_1, dm_2
+1.0, 0.0, 0.0, 0.0, 0.0, 0.0
